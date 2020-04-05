@@ -1,0 +1,43 @@
+<!--pages/mine/mine.wxml-->
+<view class='avatar center'>
+ <view class="cu-avatar xl round margin-left border" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+</view>
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class='cell-item'>
+  <text>个人资料</text>
+  </navigator>
+<navigator class='cell-item'>
+  <text>我的账户</text>
+  </navigator>
+  <navigator class='cell-item'>
+  <text>我的卡券</text>
+  </navigator>
+</view>
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class='cell-item'>
+  <text>今日免费</text>
+  </navigator>
+<navigator class='cell-item'>
+  <text>邀请好友*免费送书</text>
+  </navigator>
+  <navigator class='cell-item'>
+  <text>签到|活动</text>
+  </navigator>
+</view>
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class='cell-item'>
+  <text>设置</text>
+  </navigator>
+<navigator class='cell-item'>
+  <text>帮助与反馈</text>
+  </navigator>
+</view>
+
+
+
+
+
+

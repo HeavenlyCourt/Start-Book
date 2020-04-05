@@ -1,0 +1,30 @@
+<!--pages/search/search.wxml-->
+<!-- 搜索栏 -->
+<form bindsubmit="formSubmit">
+<view class="cu-bar search bg-gray">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索小说、作者"  name='value' confirm-type="search"></input>
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-green shadow-blur round" formType="submit">搜索</button>
+  </view>
+</view>
+</form>
+<!-- 搜索结果 -->
+ <block wx:for="{{novels}}" wx:for-item='novel' wx:for-index='index'> 
+  <view class='novel'>
+  <image src='/asset/img/novel.jpg'></image>
+  <view class='novel-info'>
+  <navigator url='{{novel.url}}'>
+    <text class='book-name'>书名:{{novel.name}}</text>
+  </navigator>
+    <text class='book-author'>作者:{{novel.author}}</text>
+    <text class='book-status'>状态:{{novel.status == 1 ? "连载":"完结"}}</text>
+  <navigator url='{{novel.lastChapterUrl}}'>
+     <text class='book-last'>最新章节:{{novel.lastChapterName}}</text>
+  </navigator>
+  </view>
+  <view class='novel-start'>⚝⚝⚝⚝⚝</view>
+  </view>
+</block>

@@ -1,0 +1,82 @@
+/* pages/index/index.wxss */
+.spiler{
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.spiler image,
+.spiler swiper{
+  width: 100%;
+  height: 300rpx;
+}
+
+.img-search{
+  height: 100rpx;
+  margin: 0 auto;
+  padding: 20rpx;
+}
+.img-search image{
+  height: 62rpx;
+  width: 100%;
+}
+.index-nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index-nav .nav-item{
+  width: 33.333%;
+  height: 250rpx;
+  display: flex;
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #f00;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*移动端边框问题：右边框普通写法占位置，也容易对不齐
+解决办法：伪元素+定位
+*/
+.index-nav .nav-item::after{
+  content: "";
+  width:1rpx;
+  height: 100%; 
+  background-color:#f00;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.index-nav .nav-item:nth-child(3n)::after{
+  /*每个第三个元素去除边框*/
+  width: 0;
+}
+
+.index-nav image{
+  width: 100rpx;
+  height: 80rpx;
+}
+.nav-item text{
+  font-size: 16px;
+  color: #cab
+}
+
+.index-enter{
+  display: flex;
+  padding: 20rpx 30rpx;
+}
+
+.index-enter .enter-item{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.index-enter image{
+  width: 250rpx;
+  height: 120rpx;
+}

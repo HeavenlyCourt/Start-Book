@@ -1,0 +1,35 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 居中封装 */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 列表封装 */
+.cell{
+  font-size: 16px;
+  background: white;
+}
+
+.cell .cell-item{
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+/*分割封装*/
+.divider{
+  height: 20rpx;
+  background-color: #f1f1f1;
+}

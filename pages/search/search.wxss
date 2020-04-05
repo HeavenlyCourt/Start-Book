@@ -1,0 +1,34 @@
+/* pages/search/search.wxss */
+page{
+  background-color: white;
+}
+.novel{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  position: relative;
+}
+.novel image{
+  height: 170rpx;
+  width: 120rpx;
+  margin-right: 20rpx;
+}
+
+.novel .novel-info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+}
+.book-name{
+  font-size: 16px;
+  color: #333;
+}
+.novel .novel-start{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  color: #e2e2e2;
+}

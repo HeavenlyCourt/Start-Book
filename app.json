@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeRead",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "asset/img/basics.png",
+        "selectedIconPath": "asset/img/basics_cur.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "书架",
+        "iconPath": "asset/img/component.png",
+        "selectedIconPath": "asset/img/component_cur.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "会员",
+        "iconPath": "asset/img/plugin.png",
+        "selectedIconPath": "asset/img/plugin_cur.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "asset/img/about.png",
+        "selectedIconPath": "asset/img/about_cur.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

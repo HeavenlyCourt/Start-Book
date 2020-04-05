@@ -1,0 +1,11 @@
+/* pages/mine/mine.wxss */
+
+.avatar{
+  height: 400rpx;
+  background: #f60;
+}
+.border{
+  border: 8rpx solid rgba(0, 0, 0, 0.1);
+}
+
+

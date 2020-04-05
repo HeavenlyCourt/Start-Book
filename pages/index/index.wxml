@@ -1,0 +1,76 @@
+
+<!-- 轮播图 -->
+<view class='spiler'>
+ <swiper indicator-dots="{{true}}" autoplay="{{true}}" 
+  interval="2500" duration="400">
+    <swiper-item>
+      <image src="https://bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/a17df1a53dd132ff2590d9c2b956719a.jpg" mode='aspectFill'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/39e6701bf3b7fb48d74e12ad358a00a2.jpg" mode='aspectFill' />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/98fbf26a9915648ef9830692a7b6fcc2.jpg" mode='aspectFill'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/73a8b8e12e676b4917737b34cdaeec29.jpg" mode='aspectFill'/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class='img-search'>
+  <navigator url='/pages/search/search'>
+  <image src='/asset/img/search.png' mode='aspectFill'></image>
+  </navigator>
+</view>
+
+
+<!-- 导航栏 -->
+<view class='index-nav'>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon1.png"></image>
+    <text>分类</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon2.png"></image>
+    <text>免费</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon3.png"></image>
+    <text>排行榜</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon4.png"></image>
+    <text>完本</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon5.png"></image>
+    <text>大神</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon6.png"></image>
+    <text>特价</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon7.jpg"></image>
+    <text>独家</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon8.jpg"></image>
+    <text>畅销</text>
+  </navigator>
+  <navigator class='nav-item'>
+    <image src="/asset/img/icon9.jpg"></image>
+    <text>选书</text>
+  </navigator>
+</view>
+
+<!--入口栏 -->
+<view class='index-enter'>
+  <navigator class='enter-item'>
+    <image src='/asset/img/enter1.jpg'></image>
+  </navigator>
+  <navigator class='enter-item'>
+    <image src='/asset/img/enter2.jpg'></image>
+  </navigator>
+</view>
